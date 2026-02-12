@@ -1,4 +1,68 @@
 body {
-    font-family: system-ui, Arial, sans-serif;
-    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lemonchiffon;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    width: 95%;
+    align-self: auto;
+    background-color:aliceblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 6px #8d8a8a;
+}
+
+h1{
+    text-align: center;
+    color: darkblue;
+    font-size: 35px;
+}
+
+p{
+    text-align: center;
+    color: rgb(0, 86, 139);
+    font-size: 25px;
+}
+
+h2{
+    text-align: center;
+    color: darkblue;
+    font-size: 35px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    color: darkblue;
+    align-items: center;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.hobby-img{
+    width: auto;
+    height: 200px;
+    border: #736f7fe1 solid 5px;
+    display: block;
+}
+
+ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(175, 53, 197, 0.805);
+    font-size: 25px;
 }
